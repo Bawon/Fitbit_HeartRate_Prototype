@@ -43,9 +43,9 @@ def display_page(n_clicks, username):
 
 def analyze_mood(heart_rate):
     #Pretty bad mood analysis
-    if heart_rate > 100:
+    if heart_rate > 81:
         return "Stressed"
-    elif heart_rate < 60:
+    elif heart_rate < 74:
         return "Relaxed"
     else:
         return "Normal"
